@@ -53,7 +53,7 @@ class UserViewController: UIViewController, AnyView, UITableViewDelegate, UITabl
     }
     
     func update(with error: String) {
-        
+        print(error)
     }
     
     //MARK: - table view delegate func
